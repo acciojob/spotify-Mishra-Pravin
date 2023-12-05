@@ -48,7 +48,6 @@ public class SpotifyService {
         String artistName = spotifyRepository.mostPopularArtist();
         if (artistName.isEmpty())
             return "Artist db empty";
-
         return artistName;
     }
 
